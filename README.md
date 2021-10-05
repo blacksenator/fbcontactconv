@@ -2,7 +2,7 @@
 
 Purpose of the software is the converting of contact data from AVM FRITZ!Box phonebook (XML) into XML phonebook formats of various IP phone devices.
 
-This is aspin-off from [carddav2fb](https://github.com/blacksenator/carddav2fb)! You will also find this functionality there as the final part of a comprehensive program for loading CardDAV data (vCards) into the FRITZ!Box as phonebook.
+This is a spin-off from [carddav2fb](https://github.com/blacksenator/carddav2fb)! You will also find this functionality there as the final part of a comprehensive program for loading CardDAV data (vCards) into the FRITZ!Box as phonebook.
 
 ## Features
 
@@ -22,11 +22,11 @@ This is aspin-off from [carddav2fb](https://github.com/blacksenator/carddav2fb)!
 
 ## Installation
 
-Install fbconvetconv:
+Install fbcontactconv:
 
 ```console
-git clone https://github.com/blacksenator/fbconvertconv.git
-cd fbconvertconv
+git clone https://github.com/blacksenator/fbcontactconv.git
+cd fbcontactconv
 composer install --no-dev
 ```
 

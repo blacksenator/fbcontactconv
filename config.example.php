@@ -5,7 +5,7 @@ $config = [
         'url'      => 'fritz.box',      // your Fritz!Box IP
         'user'     => 'youruser',       // your Fritz!Box user
         'password' => 'xxxxxxxxxx',     // your Fritz!Box user password
-        'phonebook' => [0, ],           // phonebooks to cconvert (first tab = 0!)
+        'phonebook' => 0,               // phonebooks to convert (first tab = 0!)
     ],
 
     'ipPhonebooks' => [                         // uncomment your desired export(s)
