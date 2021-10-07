@@ -23,7 +23,7 @@ class RunCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->loadConfig($input);
-        error_log('Converting FRITZ!Box ccontacts');
+        error_log('Converting FRITZ!Box contacts...');
         convertFBphonebook($this->config);
     }
 }

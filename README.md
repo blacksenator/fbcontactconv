@@ -7,13 +7,13 @@ This is a spin-off from [carddav2fb](https://github.com/blacksenator/carddav2fb)
 ## Features
 
 * The conversion takes place with **XSL transformation**. The XML of the FRITZ! Box is converted into the XML target format on the basis of the respective XSL file
-* If necessary or possible, the name chain is divided into first name and surname. The prerequisite is the assumption that a comma with a space separates `[first name], [last name]`. If no ", " is found in the string, the name chain is used as the organization or surname (depending on the target format)
+* If necessary or possible, the name chain is divided into first name and surname. The prerequisite is the assumption that a comma with a space separates matrix of `[last name], [first name]`. If no ", " is found in the string, the name chain is used as the organization or surname (depending on the target format)
 * specify an entry in `ipPhonebooks` if the phone book is to be stored in your desired format (XML). There are currently five transformation templates stored in the `/lib/` directory:
-* Cisco
-* Grandstream
-* jFritz (not a phone but similar XML structure)
-* snom
-* Yealink
+  * Cisco
+  * Grandstream
+  * jFritz (not a phone but similar XML structure)
+  * snom
+  * Yealink
 
 ## Requirements
 

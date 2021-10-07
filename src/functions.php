@@ -45,7 +45,7 @@ function getIPPhonebook($fbXMLphonebook, $config)
             error_log('XSL Error: ' . implode(', ', $result));
         }
         $destination = $ipPhoneConfig['path'] . $ipPhoneConfig['file'];
-        error_log('Converting into a ' . $ipPhone . ' phonebook: ' . $destination);
+        error_log('... into a ' . $ipPhone . ' phonebook as: ' . $destination);
         $ipPhoneXML = $converter->getIPPhonebook($fbXMLphonebook);
         file_put_contents($destination, $ipPhoneXML);
     }
