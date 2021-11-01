@@ -13,7 +13,7 @@ This is a spin-off from [carddav2fb](https://github.com/blacksenator/carddav2fb)
   * Grandstream
   * jFritz (not a phone but similar XML structure)
   * snom
-  * Yealink
+  * Yealink (two different xsl transformations)
 
 ## Requirements
 
