@@ -20,10 +20,11 @@ class RunCommand extends Command
         $this->addConfig();
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $this->loadConfig($input);
         error_log('Converting FRITZ!Box contacts...');
         convertFBphonebook($this->config);
+	    return 0;
     }
 }
