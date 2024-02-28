@@ -20,6 +20,16 @@ $config = [
             'path' => '',
             'file' => 'LocalPhonebook.xml',
         ],
+        'Yealink2' => [
+            'xsl' => 'Yealink_2.xsl',
+            'path' => '',
+            'file' => 'LocalPhonebook2.xml',
+        ],
+        'Yealink3' => [
+            'xsl' => 'Yealink_3.xsl',
+            'path' => '',
+            'file' => 'LocalPhonebook3.xml',
+        ]
         'snom' => [
             'xsl' => 'snom.xsl',
             'path' => '',
