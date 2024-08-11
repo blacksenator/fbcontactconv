@@ -43,19 +43,19 @@ Edit `config.example.php` and save as `config.php` or use an other name of your 
 ### List all commands
 
 ```console
-./fbconvertconv list
+./fbcontactconv list
 ```
 
 ### Complete processing
 
 ```console
-./fbconvertconv run
+./fbcontactconv run
 ```
 
 ### Get help for a command
 
 ```console
-./fbconvertconv run -h
+./fbcontactconv run -h
 ```
 
 ### Export phonebooks
