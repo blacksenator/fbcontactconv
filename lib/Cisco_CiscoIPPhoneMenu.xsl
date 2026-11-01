@@ -30,7 +30,7 @@
     <!-- exclude fax numbers-->
     <xsl:if test="not(@type='fax_work') and not(preceding-sibling::number[not(@type='fax_work')])">
         <URL>
-            <xsl:value-of select="." />
+            <xsl:value-of select="concat('Dial:', .)" />
         </URL>
     </xsl:if>
  </xsl:template>
